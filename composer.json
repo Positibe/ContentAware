@@ -1,0 +1,33 @@
+{
+    "name": "positibe/content-aware",
+    "type": "library",
+    "description": "A library base for content aware entities for PositibeLabs Project",
+    "keywords": [
+        "content",
+        "content aware",
+        "positibe",
+        "positibelabs"
+    ],
+    "homepage": "http://positibelabs.blogspot.com/component/content-aware",
+    "license": "MIT",
+    "version": "0.1.1.0",
+    "authors": [
+        {
+            "name": "Pedro Carlos Abreu Jiménez",
+            "email": "pcabreus@gmail.com",
+            "homepage": "https://github.com/pcabreus"
+        },
+        {
+            "name": "PositibeLabs Cooperative",
+            "homepage": "https://github.com/positibelabs"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Positibe\\Component\\ContentAware\\": ""}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
